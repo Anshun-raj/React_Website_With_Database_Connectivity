@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+body
+{
+  overflow-x: hidden;
+}
+nav{
+  display: flex;
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgb(11, 171, 234);
+    position: fixed;
+}
+
+nav .logo{
+   width: 2rem;
+   margin-top: 0.5rem;
+   margin-left: 1rem;
+}
+
+nav .nav-menu{
+   display: flex;
+   padding-left: 55rem;
+   padding-top: 1rem;
+}
+
+nav .nav-menu li{
+  list-style: none;
+  padding-left: 3rem;
+  font-weight: 500;
+}
+nav .nav-menu li a{
+  font-size: 1.1rem;
+  color: whitesmoke;
+  text-decoration: none;
+}
+nav .nav-menu li a:hover{
+  border-bottom: 0.15rem solid #fff;
+  color: yellow;
+}
+.home .home-data{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  height: 90vh;
+  background-color: #000;
+}
+
+.home .home-data .home-data-left{
+  padding-left: 10rem;
+  padding-top: 8rem;
+}
+.home .home-data .home-data-left h1{
+  color: #fff;
+  text-align: center;
+  padding-top: 8rem;
+  padding-left: 1rem;
+}
+
+.home .home-data .home-data-left p{
+  color: #fff;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.25rem;
+}
+.home .home-data .home-data-left .home-btns{
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 11rem;
+}
+
+.home .home-data .home-data-left .home-btns .btn{
+   background-color: red;
+   padding: 0.6rem 0.9rem;
+   border-radius: 0.5rem;
+   text-decoration: none;
+   color: whitesmoke;
+   margin-right: 1rem;
+   transition: 0.5s;
+} 
+.home .home-data .home-data-left .home-btns .btn:hover{
+  background-color: #fff;
+  color: red;
+}
+
+.home .home-data .home-data-right{
+  padding-top: 7rem;
+  padding-left: 15rem;
+}
+
+.home .home-data .home-data-right .carImg{
+  height: 30rem;
+  width: 30rem;
+  border-radius: 0.2rem;
+}
+
+.about{
+  margin-top: 3rem;
+  width: 100vw;
+  height: 90vh;
+  background-color: #000;
+}
+.about h1{
+  padding-top: 1rem;
+  text-align: center;
+  color: #fff;
+  text-decoration: underline solid red;
+}
+
+.about .about-data{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about .about-data .about-data-left{
+  padding-left: 10rem;
+  padding-top: 3rem;
+  width: 41vw;
+}
+
+.about .about-data .about-data-left h3{
+  padding-bottom: 0.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: underline solid red;
+}
+.about .about-data .about-data-left p{
+  color: #fff;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.about .about-data .about-data-right{
+  padding-left: 15rem;
+  padding-top: 4rem;
+}
+.about .about-data .about-data-right .oldImg{
+  width: 38rem;
+  height: 28rem;
+  margin-left: 2rem;
+  border-radius: 0.2rem;
+}
+
+.about .about-data .about-data-right h4{
+  color: #fff;
+  padding-left: 18rem;
+  font-size: 1.4rem;
+}
+
+.product{
+  margin-top: 3rem;
+  width: 100vw;
+  height: 90vh;
+  background-color: #000;
+}
+
+.product h1{
+  padding-top: 1rem;
+  text-align: center;
+  color: #fff;
+  text-decoration: underline solid red;
+}
+
+.product .product-data{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10rem;
+  padding-right: 5rem;
+  padding-top: 0.5rem;
+}
+
+.product .product-data .product-data-card{
+  width: 20rem;
+  height: 15rem;
+  border: 0.05rem solid #fff;
+  border-radius: 0.5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+.product .product-data .product-data-card .CardPic{
+  width: 12rem;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+}
+
+.product .product-data .product-data-card h3{
+  color: #fff;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.product .product-data .product-data-card .buyBtn{
+  background-color: red;
+  color: #fff;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.2rem;
+  margin-left: 7.2rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.product .product-data .product-data-card .buyBtn:hover{
+  color: red;
+  background-color: #fff;
+}
+
+.service{
+  margin-top: 3rem;
+  width: 100vw;
+  height: 90vh;
+  background-color: #000;
+}
+
+.service h1{
+  padding-top: 1rem;
+  text-align: center;
+  color: #fff;
+  text-decoration: underline solid red;
+}
+
+.service .service-data{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10rem;
+  padding-right: 5rem;
+  padding-top: 0.5rem;
+}
+
+.service .service-data .service-data-card{
+  width: 20rem;
+  height: 15rem;
+  border: 0.05rem solid #fff;
+  border-radius: 0.5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+.service .service-data .service-data-card a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.service .service-data .service-data-card .servImg{
+  width: 4rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.service .service-data .service-data-card p{
+  color: yellowgreen;
+  font-size: 0.85rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.service .service-data .service-data-card li{
+  color: #fff;
+}
+
+.feedback{
+  margin-top: 3rem;
+  width: 100vw;
+  height: 90vh;
+  background-color: #000;
+}
+
+.feedback h1{
+  padding-top: 1rem;
+  text-align: center;
+  color: #fff;
+  text-decoration: underline solid red;
+}
+
+.feedback .feedback-data{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10rem;
+  padding-right: 5rem;
+  padding-top: 0.5rem;
+}
+
+.feedback .feedback-data .feedback-data-left{
+  padding-top: 3rem;
+  width: 41vw;
+}
+
+.feedback .feedback-data .feedback-data-left .feedImg{
+  width: 31rem;
+  height: 28rem;
+}
+
+.feedback .feedback-data .feedback-data-right{
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+
+.feedback .feedback-data .feedback-data-right h3{
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: underline red 0.15rem;
+}
+
+.feedback .feedback-data .feedback-data-right h4{
+  color: red;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.feedback .feedback-data .feedback-data-right input{
+  width: 25rem;
+  height: 3rem;
+  margin: 1rem 2rem 1rem 0;
+  font-size: 0.9rem;
+}
+
+.feedback .feedback-data .feedback-data-right input::placeholder{
+  color: red;
+}
+
+.feedback .feedback-data .feedback-data-right textarea{
+  margin: 1rem 2rem 1rem 0;
+  width: 25rem;
+  height: 3rem;
+  font-size: 0.9rem;
+}
+
+.feedback .feedback-data .feedback-data-right textarea::placeholder{
+  color: red;
+}
+
+.feedback .feedback-data .feedback-data-right select{
+  margin: 1rem 2rem 1rem 0rem;
+  color: red;
+  height: 2rem;
+  width: 25rem;
+  font-size: 0.9rem;
+}
+
+.feedback .feedback-data .feedback-data-right button{
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  background-color: rgb(16, 16, 16);
+  color: #fff;
+  border: none;
+}
+
+.feedback .feedback-data .feedback-data-right button:hover{
+  background-color: red;
+  color: #fff;
+  outline: none;
+}
+
+
+
+
+
+
