@@ -14,33 +14,9 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({extended:true}))
 
 
-// var checkUrl=function(req,res,next){
-//     console.log('current url is',req.originalUrl);
-//     next();
-// } 
-// var router=express.Router();
-// router.get('/',checkUrl,function(req,res){
-//     res.sendFile(__dirname+'/Home.jsx')
-// });
 
-// router.get('/#home',checkUrl,function(req,res){
-//     res.sendFile(__dirname+'/Home.jsx')
-// });
-// router.get('/#about',checkUrl,function(req,res){
-//     res.sendFile(__dirname+'/About.jsx')
-// });
 
-// router.get('/#product',checkUrl,function(req,res){
-//     res.sendFile(__dirname+'/Product.jsx')
-// });
 
-// router.get('/#service',checkUrl,function(req,res){ 
-//     res.sendFile(__dirname+'/Service.jsx')
-// });
-
-// router.get('/#feedback',checkUrl,function(req,res){
-//     res.sendFile(__dirname+'/Feedback.jsx')
-// });
 
 app.post('/api/insert',function(req,res){
        console.log(req.body);
@@ -65,6 +41,4 @@ app.post('/api/insert',function(req,res){
 
     })
 });
-
-// app.use('/',router); 
 app.listen(3001);
